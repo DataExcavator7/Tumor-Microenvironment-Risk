@@ -3,9 +3,9 @@
 
 Immune checkpoint inhibitor (ICI) treatment has brought the dawn of a new day for hepatocellular carcinoma (HCC) patients. However, only a minority of HCCs are benefitting from ICIs due to poor efficacy and safety concerns. As of today, few efficient predictive factors exist to precisely stratify the responders of immunotherapy in HCC. In this research, we developed a tumor microenvironment risk (TMErisk) model to divide HCC patients into different immune subtypes and considerably evaluate the prognosis of patients. Our result indicated that virally mediated HCC patients, that were more common in tumor protein P53 (TP53) alterations with lower TMErisk scores, were appropriate for ICI treatment, whereas multi-tyrosine kinase inhibitors (TKIs) were recommended for HCC patients with alcoholic hepatitis, that were more common in catenin beta 1 (CTNNB1) alterations with higher TMErisk scores.The TMErisk model in our research represents the first attempt to anticipate tumor tolerance in immune microenvironment via degree of immune infiltration in HCCs. We sincerely hope ICI treatment would be more precise and well-targeted for suitable populations in the near future.
 
-The statistical analyses and visualization were performed by R software (version 4.0.5, except for oncoPredict package requesting R 4.2.0) and GraphPad Prism (version 8.0.1). All codes are storaged in [code](/example/profile.md).
+The statistical analyses and visualization were performed by R software (version 4.0.5, except for oncoPredict package requesting R 4.2.0) and GraphPad Prism (version 8.0.1). All codes are storaged in [code](/example/profile.md). The manuscript entitled “Development of a TMErisk model based on immune infiltration in tumor microenvironment to predict prognosis of immune checkpoint inhibitor treatment in hepatocellular carcinoma” by Yan et al. is currently under revision.
 
-We sincerely appreciate the researchers who provided algorithms used in this study, as well as carefully cite them in the text. The articles corresponding to the algorithm are listed as follows.
+We sincerely appreciate the researchers who provide algorithms used in this study, as well as carefully cite them in the text. The articles corresponding to the algorithm are listed as follows.
 
 1.	Kolde, R., S. Laur, P. Adler, et al., Robust rank aggregation for gene list integration and meta-analysis. Bioinformatics, 2012. 28(4): p. 573-80.
 2.	Yoshihara, K., M. Shahmoradgoli, E. Martínez, et al., Inferring tumour purity and stromal and immune cell admixture from expression data. Nat Commun, 2013. 4: p. 2612.
@@ -27,7 +27,3 @@ We sincerely appreciate the researchers who provided algorithms used in this stu
 18.	Friedman, J., T. Hastie, and R. Tibshirani, Regularization Paths for Generalized Linear Models via Coordinate Descent. J Stat Softw, 2010. 33(1): p. 1-22.
 19.	Blanche, P., J.F. Dartigues, and H. Jacqmin-Gadda, Estimating and comparing time-dependent areas under receiver operating characteristic curves for censored event times with competing risks. Stat Med, 2013. 32(30): p. 5381-97.
 20.	Yu, G., L.G. Wang, Y. Han, et al., clusterProfiler: an R package for comparing biological themes among gene clusters. Omics, 2012. 16(5): p. 284-7.
-
-
-
-
